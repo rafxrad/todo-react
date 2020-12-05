@@ -44,18 +44,18 @@ form button:hover {
 }
 
 .todo-list {
-  min-width: 30%;
+  min-width: 50%;
   list-style: none;
 }
 
 .todo {
-  margin: 0.5rem;
+  margin: 1.0em;
   background: white;
   font-size: 1.5rem;
   color: black;
   display: flex;
-  justify-content: space-between;
-  align-items: center;
+  justify-content: space-around;
+  align-items: right;
   transition: all 1s ease;
 }
 .filter-todo {
